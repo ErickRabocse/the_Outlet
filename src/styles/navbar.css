@@ -1,0 +1,13 @@
+.nav-content * {
+    color: #fbfbff;
+}
+.navbar{
+    background-color: #0B4F6C;
+}
+.navbar .nav-link:visited, .navbar .navbar-brand:visited{
+    color: #fbfbff;
+}
+
+.navbar .nav-link:active, .navbar .navbar-brand:active{
+    color: #ffe900;
+}

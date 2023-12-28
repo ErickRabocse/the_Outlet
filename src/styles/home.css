@@ -1,0 +1,13 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+.side{
+    width: 20%;
+}
+.content{
+    width: 75%;
+    height: 100%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}

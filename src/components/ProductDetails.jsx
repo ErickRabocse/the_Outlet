@@ -19,8 +19,8 @@ const ProductDetails = () => {
 
   return (
     <>{!loading &&
-      <div className='container d-flex justify-content-center m-4'>
-        <div className='card mb-3 p-4' style={{ maxWidth: '540px' }}>
+      <div className='container d-flex justify-content-center my-4'>
+        <div className='card mb-3 p-4' style={{ maxWidth: '700px' }}>
           <div className='row g-0'>
             <div className='col-md-4'>
               <img

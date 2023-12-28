@@ -11,6 +11,7 @@ const NavBar = () => {
       el?.product_name.toLowerCase().includes(search.toLowerCase().trim())
     ))
     setFilteredProducts(filteredItems)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search, products])
 
   return (

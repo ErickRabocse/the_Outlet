@@ -24,7 +24,7 @@ const ProductDetails = () => {
           <div className='row g-0'>
             <div className='col-md-4'>
               <img
-                src={product?.image || placeholderImg}
+                src={product?.image || product?.images || placeholderImg}
                 className='img-fluid rounded-start'
                 alt='...'
                 style={{ objectFit: 'contain', height: '100%' }}

@@ -8,7 +8,7 @@
     border: none;
 }
 .card-title{
-    margin: 10px 0;
+    margin-top: 25px;
 }
 .card-body{
     padding: 2px;
@@ -22,7 +22,7 @@
     align-items: center;
 }
 .btn, .btn:active, .btn:visited{
-    width: 100px;
+    width: 77px;
     margin-top: 0;
     background-color: #0b4f6c;
 }
@@ -32,4 +32,10 @@
     background-color: white;
     color: #0b4f6c;
     border: 1px solid #0b4f6c;
+}
+.loading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
 }

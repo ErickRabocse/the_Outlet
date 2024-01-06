@@ -31,7 +31,7 @@ const NavBar = () => {
               <NavLink className='nav-link' to='/login'>Login</NavLink>
             </li>
           </ul>
-          <form className='d-flex' role='search'>
+          <form role='search'>
             <input
               className='form-control me-2'
               type='search'

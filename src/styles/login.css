@@ -1,0 +1,13 @@
+.access{
+    width: 50%;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    border-left: 1px solid #0B4F6C;
+}
+.input{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,27 @@
+.cartTotal{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.cartTotal > span{
+    color: green;
+}
+.quantity{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 22px;
+    height: 25px;
+    margin: 0 5px;
+}
+.quantity:hover{
+    background-color: #ffe900;
+}
+.quantityContainer{
+    border: none;
+    background-color: #0B4F6C;
+    color: white;
+    border-radius: 5px;
+    width: 190px;
+    padding: 10px;
+  }

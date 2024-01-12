@@ -2,10 +2,11 @@ import { NavLink } from 'react-router-dom'
 import '../styles/navbar.css'
 import { useContext, useEffect, useState } from 'react'
 import { productsContext } from '../context/ProductsContext'
+import shoppingCart from '../images/cart.svg'
 
 const NavBar = () => {
   const [search, setSearch] = useState('')
-  const { products, setFilteredProducts } = useContext(productsContext)
+  const { products, setFilteredProducts, cart } = useContext(productsContext)
   useEffect(() => {
     const filteredItems = products.filter((el) => (
       el?.product_name.toLowerCase().includes(search.toLowerCase().trim())
@@ -41,6 +42,12 @@ const NavBar = () => {
               onChange={(e) => { setSearch(e.target.value) }}
             />
           </form>
+          <div className='cart_container'>
+            <NavLink to='/cart'>
+              <img src={shoppingCart} alt='shopping cart icon' className='cart' />
+            </NavLink>
+            <p className='cartQuantity'>{cart.length}</p>
+          </div>
         </div>
       </div>
     </nav>

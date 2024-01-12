@@ -8,6 +8,7 @@ const ProductsProvider = ({ children }) => {
   const [products, setProducts] = useState([])
   const [filteredProducts, setFilteredProducts] = useState([])
   const [loading, setLoading] = useState(true)
+  const [cart, setCart] = useState([])
   useEffect(() => {
     fetch('https://theoutlet.onrender.com/items')
       .then(res => res.json())
@@ -21,7 +22,9 @@ const ProductsProvider = ({ children }) => {
     filteredProducts,
     setFilteredProducts,
     loading,
-    setLoading
+    setLoading,
+    cart,
+    setCart
   }
   return (
     <productsContext.Provider value={data}>

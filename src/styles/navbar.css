@@ -11,3 +11,39 @@
 .navbar .nav-link:active, .navbar .navbar-brand:active{
     color: #ffe900;
 }
+.cart{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.cart:hover{
+    background-color: #ffe900;
+}
+@media (max-width: 700px) {
+    .cart{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+.cart_container{
+    position: relative;
+}
+.cartQuantity{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: black;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffe900;
+}
